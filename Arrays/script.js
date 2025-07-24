@@ -1,5 +1,7 @@
 /*  Arrays is a collection of items.
     here value are stored in single line.
+    we can change value in arrays but we cannot change value in string because string is immutable 
+    in javascript.
     */
 //create arrys
 let heroes=["ironman","thor","batman"];
@@ -16,5 +18,7 @@ console.log(marks[3]);
 // to change the values 
 marks[2]=101;
 console.log(marks)
+
+
 
 
